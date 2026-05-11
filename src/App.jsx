@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Marketplace from "./pages/Marketplace";
-import ProductDetail from "./pages/ProductDetail";
-import PublishResource from "./pages/PublishResource";
-import MyLoans from "./pages/MyLoans";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import Marketplace from "./pages/Marketplace.jsx";
+import ProductDetail from "./pages/ProductDetail.jsx";
+import PublishResource from "./pages/PublishResource.jsx";
+import MyLoans from "./pages/MyLoans.jsx";
 
 export default function App() {
   return (
